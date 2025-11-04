@@ -1,4 +1,4 @@
-// classe prncpal pour tout les Widgets 
+// classe prncpal pour tout les Widgets
 import 'package:flutter/material.dart';
 
 import 'compteur_screen.dart';
@@ -17,16 +17,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Compteur de Score',
       theme: ThemeData(
-      
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
       ),
-      home:  Scaffold(
-        appBar: AppBar(
-          title: Text('First App'),
-          backgroundColor: Colors.green,
-        ),
-        body: CompteurScreen()
-      )
+      home: Scaffold(body: CompteurScreen()),
     );
   }
 }
